@@ -59,7 +59,7 @@ class Loteria(QMainWindow, Ui_Gerador):
         self.numbers_list = list(self.numbers_list)
 
         while len(self.numbers_list) < 6:
-            num = random.randint(1, 61)
+            num = random.randint(1, 60)
             if num not in self.numbers_list:
                 self.numbers_list.append(num)
 
