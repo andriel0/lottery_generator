@@ -191,7 +191,7 @@ class Ui_Gerador(object):
         self.lbl_gerador.setFont(font)
         self.lbl_gerador.setObjectName("lbl_gerador")
         self.label = QtWidgets.QLabel(Gerador)
-        self.label.setGeometry(QtCore.QRect(150, 220, 265, 71))
+        self.label.setGeometry(QtCore.QRect(130, 220, 265, 71))
         font = QtGui.QFont()
         font.setFamily("Monotype Corsiva")
         font.setPointSize(34)
