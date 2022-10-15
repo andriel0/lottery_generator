@@ -1,7 +1,7 @@
 # lottery_generator
 
 - Não consegui upar o arquivo .exe no repositório, então vou deixar o link aberto do meu drive para quem quiser baixar para testar.
-https://drive.google.com/file/d/190k0yLUG-K97OXmuZ16O-hvKXiHG2Y2_/view?usp=sharing
+https://drive.google.com/file/d/1NPNd9u1NjqF4ZZkozPiSrcxft0u4Dnvj/view?usp=sharing
 
 Meu programa de gerador de sena com números de 1 a 60 que não podem se repetir.
 
