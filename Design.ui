@@ -20,7 +20,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>350</y>
+     <y>360</y>
      <width>70</width>
      <height>70</height>
     </rect>
@@ -50,7 +50,7 @@ border-color:#ffc600;</string>
    <property name="geometry">
     <rect>
      <x>90</x>
-     <y>350</y>
+     <y>360</y>
      <width>70</width>
      <height>70</height>
     </rect>
@@ -80,7 +80,7 @@ border-color:#ffc600;</string>
    <property name="geometry">
     <rect>
      <x>170</x>
-     <y>350</y>
+     <y>360</y>
      <width>70</width>
      <height>70</height>
     </rect>
@@ -110,7 +110,7 @@ border-color:#ffc600;</string>
    <property name="geometry">
     <rect>
      <x>250</x>
-     <y>350</y>
+     <y>360</y>
      <width>70</width>
      <height>70</height>
     </rect>
@@ -140,7 +140,7 @@ border-color:#ffc600;</string>
    <property name="geometry">
     <rect>
      <x>330</x>
-     <y>350</y>
+     <y>360</y>
      <width>70</width>
      <height>70</height>
     </rect>
@@ -170,7 +170,7 @@ border-color:#ffc600;</string>
    <property name="geometry">
     <rect>
      <x>410</x>
-     <y>350</y>
+     <y>360</y>
      <width>70</width>
      <height>70</height>
     </rect>
@@ -196,11 +196,11 @@ border-color:#ffc600;</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="lbl_sorte">
+  <widget class="QLabel" name="lbl_qtd">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>120</y>
+     <y>140</y>
      <width>281</width>
      <height>41</height>
     </rect>
@@ -214,14 +214,14 @@ border-color:#ffc600;</string>
     <string notr="true">color: rgb(255, 226, 5);</string>
    </property>
    <property name="text">
-    <string>Tem algum número da sorte?</string>
+    <string>Precisa de quantos números?</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="sorte1">
    <property name="geometry">
     <rect>
      <x>300</x>
-     <y>110</y>
+     <y>190</y>
      <width>56</width>
      <height>56</height>
     </rect>
@@ -249,8 +249,8 @@ border-radius: 28;
   <widget class="QLineEdit" name="sorte2">
    <property name="geometry">
     <rect>
-     <x>360</x>
-     <y>110</y>
+     <x>361</x>
+     <y>190</y>
      <width>56</width>
      <height>56</height>
     </rect>
@@ -277,8 +277,8 @@ border-color:#ffc600;</string>
   <widget class="QLineEdit" name="sorte3">
    <property name="geometry">
     <rect>
-     <x>420</x>
-     <y>110</y>
+     <x>422</x>
+     <y>190</y>
      <width>56</width>
      <height>56</height>
     </rect>
@@ -374,11 +374,11 @@ background-color: rgb(2, 18, 255);
     </property>
    </widget>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="lbl_boa">
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>220</y>
+     <y>270</y>
      <width>265</width>
      <height>71</height>
     </rect>
@@ -394,6 +394,120 @@ background-color: rgb(2, 18, 255);
    </property>
    <property name="text">
     <string>BOA SORTE!!!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_sorte">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255,226,5);</string>
+   </property>
+   <property name="text">
+    <string>Tem algum número da sorte?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_repeat">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>270</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255,226,5);</string>
+   </property>
+   <property name="text">
+    <string>Pode repetir números?</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radio_sim">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>80</y>
+     <width>65</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255,226,5);</string>
+   </property>
+   <property name="text">
+    <string>SIM</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radio_nao">
+   <property name="geometry">
+    <rect>
+     <x>285</x>
+     <y>80</y>
+     <width>65</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255,226,5);</string>
+   </property>
+   <property name="text">
+    <string>NÃO</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="qtd_num">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>128</y>
+     <width>56</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Sans Serif</family>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid;
+border-color:#ffc600;
+border-radius: 28;
+</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QWidget" name="BG" native="true">
@@ -421,13 +535,18 @@ background-color: rgb(2, 18, 255);
   <zorder>num4</zorder>
   <zorder>num5</zorder>
   <zorder>num6</zorder>
-  <zorder>lbl_sorte</zorder>
+  <zorder>lbl_qtd</zorder>
   <zorder>sorte1</zorder>
   <zorder>sorte2</zorder>
   <zorder>sorte3</zorder>
   <zorder>btn_gerar</zorder>
   <zorder>navbar</zorder>
-  <zorder>label</zorder>
+  <zorder>lbl_boa</zorder>
+  <zorder>lbl_sorte</zorder>
+  <zorder>lbl_repeat</zorder>
+  <zorder>radio_sim</zorder>
+  <zorder>radio_nao</zorder>
+  <zorder>qtd_num</zorder>
  </widget>
  <resources>
   <include location="file_rc.qrc"/>
