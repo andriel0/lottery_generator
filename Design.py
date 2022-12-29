@@ -182,7 +182,7 @@ class Ui_Gerador(object):
         self.navbar.setStyleSheet("color: #ffc600;")
         self.navbar.setObjectName("navbar")
         self.lbl_gerador = QtWidgets.QLabel(self.navbar)
-        self.lbl_gerador.setGeometry(QtCore.QRect(20, 15, 451, 61))
+        self.lbl_gerador.setGeometry(QtCore.QRect(20, 20, 451, 61))
         font = QtGui.QFont()
         font.setFamily("Mongolian Baiti")
         font.setPointSize(28)
@@ -191,7 +191,7 @@ class Ui_Gerador(object):
         self.lbl_gerador.setFont(font)
         self.lbl_gerador.setObjectName("lbl_gerador")
         self.lbl_boa = QtWidgets.QLabel(Gerador)
-        self.lbl_boa.setGeometry(QtCore.QRect(150, 270, 265, 71))
+        self.lbl_boa.setGeometry(QtCore.QRect(155, 270, 265, 71))
         font = QtGui.QFont()
         font.setFamily("Monotype Corsiva")
         font.setPointSize(34)
@@ -275,7 +275,7 @@ class Ui_Gerador(object):
 
     def retranslateUi(self, Gerador):
         _translate = QtCore.QCoreApplication.translate
-        Gerador.setWindowTitle(_translate("Gerador", "Gerador de Loteria"))
+        Gerador.setWindowTitle(_translate("Gerador", "Gerador"))
         self.lbl_qtd.setText(_translate("Gerador", "Precisa de quantos números?"))
         self.btn_gerar.setText(_translate("Gerador", "GERAR"))
         self.lbl_gerador.setText(_translate("Gerador", "GERADOR DE NÚMEROS"))
